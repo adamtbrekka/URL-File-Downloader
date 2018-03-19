@@ -1,0 +1,31 @@
+URL File Downloader
+author: Adam Brekka
+
+
+language:
+
+	Python
+
+
+libraries:
+
+	requests: for GET requests to download file from online server
+
+	hashlib: for extracting MD5 for file verification
+
+
+instructions for urlfd.py:
+
+	1.) Open terminal...
+
+	2.) Type "cd " and name of current directory urlfd.py is located...
+
+	3.) Type "python urlfd.py"...
+
+	4.) An input prompt with appear in the terminal for you to type the URL from which you want to download a file...
+
+	5.) Type in your URL and press ENTER...
+
+	6.) After the file has downloaded, the input prompt will appear again...
+
+	7.) To exit the program, type "exit" after the input prompt.
