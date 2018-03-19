@@ -1,7 +1,7 @@
 import requests
 import hashlib
 
-def downloadURLFile(url): # Main function for downloading our video file.
+def downloadURLFile(url): # Main function for downloading our URL file.
     local_filepath = url.split('/')[-1] # Extract file name from end of the URL.
     local_filename = local_filepath.split('?')[0] # Strip away queries tailing after the file name from the URL.
 
